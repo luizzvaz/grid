@@ -1,0 +1,27 @@
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2.5rem;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul a {
+    color: white;
+    padding: 0.75rem 1rem;
+    background-color: #9753fd;
+    border-radius: 5px;
+}
+
+.header a {
+    margin: 10px;
+    padding: 0.5rem;
+}
+
+.header a img {
+    width: 200px;
+}

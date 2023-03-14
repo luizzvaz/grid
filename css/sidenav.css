@@ -1,0 +1,23 @@
+.sidenav {
+    background-color: rgba(237, 231, 231, 0.542);
+    padding: 30px;
+}
+
+
+
+.sidenav a {
+    display: block;
+    max-width: 120px;
+    min-width: 80px;
+    margin: 0 auto 30px auto;
+    padding: 1.25rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #b07dfb;
+    box-shadow: 0 0 15px #8844ee;
+}

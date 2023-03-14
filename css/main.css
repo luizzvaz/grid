@@ -1,0 +1,114 @@
+.conteudo {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.conteudo h1 {
+    color: #b07dfb;
+    font-size: 3rem;
+}
+
+.medida {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.medida span {
+    display: block;
+}
+
+.medida div {
+    box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+    border-radius: 5px;
+}
+
+.inf {
+    font-size: 2.5rem;
+    color: #b07dfb;
+    background-color: #8844ee;
+    padding: 14px 12px;
+    border-radius: 5px 5px 0 0;
+}
+
+.inf2 {
+    color: #b07dfb;
+    padding: 4px 12px;
+    text-align: center;
+    font-size: 1.25rem;
+
+}
+
+
+.span2 {
+    grid-column: 1/-1;
+}
+
+.titulo span {
+    color: #b07dfb;
+    font-style: italic;
+}
+
+/*conteudo */
+.conteudo p {
+    color: rgb(86, 85, 85);
+    font-size: 1.25rem;
+    line-height: 1.35;
+}
+
+.conteudo img {
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(44, 44, 44, 0.15);
+
+}
+
+.conteudo .texto-p {
+    font-size: 1.2rem;
+    color: #b07dfb;
+    max-width: 30ch;
+}
+
+.img {
+    grid-row: span 2;
+}
+
+/* frase*/
+.frase {
+    background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.75rem;
+    font-style: italic;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(44, 44, 44, 0.15);
+
+}
+
+/*datalhes da especies*/
+.conteudo ul {
+    background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+    color: white;
+    padding: 30px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+}
+
+.conteudo li {
+    padding: 8px;
+}
+
+.conteudo li+li {
+    margin-top: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.421);
+}
+
+.info p+p {
+    margin-top: 30px;
+}

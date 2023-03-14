@@ -1,0 +1,38 @@
+.grid-estrutura {
+    display: grid;
+    grid-template-columns: minmax(160px, 1fr) 3fr 280px;
+    grid-template-areas:
+        "header header header"
+        "sidenav main propaganda"
+        "sidenav main propaganda"
+        "footer footer footer"
+    ;
+}
+
+.header {
+    background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+    ;
+    grid-area: header;
+}
+
+.sidenav {
+    grid-area: sidenav;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 1rem;
+}
