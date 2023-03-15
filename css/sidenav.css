@@ -28,6 +28,7 @@
     .sidenav {
         position: relative;
         overflow-x: auto;
+        padding: 20px;
     }
 
     .sidenav ul {

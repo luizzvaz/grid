@@ -121,5 +121,7 @@
 @media (max-width:650px) {
     .conteudo {
         grid-template-columns: 1fr;
+        padding: 20px;
+
     }
 }
