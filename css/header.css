@@ -3,7 +3,7 @@
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2.5rem;
+    padding: 1rem 2.5rem;
 }
 
 .header ul {
@@ -24,4 +24,18 @@
 
 .header a img {
     width: 200px;
+    min-width: 160px;
+}
+
+@media (max-width:750px) {
+    .header {
+        grid-template-columns: auto;
+        gap: 30px;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+
+    .header img {
+        margin: 0 auto;
+    }
 }

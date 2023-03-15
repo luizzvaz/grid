@@ -5,3 +5,19 @@
     padding: 30px;
     gap: 30px;
 }
+
+@media (max-width:1200px) {
+    .propaganda {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .propaganda {
+        grid-template-columns: auto
+    }
+
+    .propaganda img {
+        justify-content: center;
+    }
+}

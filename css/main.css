@@ -16,7 +16,7 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 30px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: space-around;
 }
 
@@ -30,10 +30,10 @@
 }
 
 .inf {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #b07dfb;
-    background-color: #8844ee;
-    padding: 14px 12px;
+    background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 20px 16px;
     border-radius: 5px 5px 0 0;
 }
 
@@ -59,7 +59,8 @@
 .conteudo p {
     color: rgb(86, 85, 85);
     font-size: 1.25rem;
-    line-height: 1.35;
+    line-height: 1.6;
+
 }
 
 .img {
@@ -115,4 +116,10 @@
 
 .info p+p {
     margin-top: 30px;
+}
+
+@media (max-width:650px) {
+    .conteudo {
+        grid-template-columns: 1fr;
+    }
 }

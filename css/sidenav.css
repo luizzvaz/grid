@@ -17,7 +17,21 @@
     transition: 0.3s;
 }
 
+
+
 .sidenav a:hover {
     background-color: #b07dfb;
     box-shadow: 0 0 15px #8844ee;
+}
+
+@media (max-width:750px) {
+    .sidenav {
+        position: relative;
+        overflow-x: auto;
+    }
+
+    .sidenav ul {
+        display: flex;
+        gap: 30px;
+    }
 }
