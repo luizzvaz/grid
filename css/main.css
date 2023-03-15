@@ -62,6 +62,10 @@
     line-height: 1.35;
 }
 
+.img {
+    align-self: end;
+}
+
 .conteudo img {
     width: 100%;
     box-shadow: 5px 5px 10px rgba(44, 44, 44, 0.15);
